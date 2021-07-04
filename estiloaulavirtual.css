@@ -1,0 +1,160 @@
+body{
+	font-family: arial, tahoma
+	background-color:#C40EBE;
+}
+/*estilo de cabecera*/
+header#cabecera_index{
+	width: 1200px;
+	height: 80px;
+	background-color:#fcda59;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+      width: 300px;
+      height: 70px;
+      /*background-color:#D5DF10;*/ 
+      float: left;
+      margin-left: 10px;    
+ }
+
+ 
+
+#botonera1{
+	width: 400px;
+	height: 60px;
+	/*background-color: blue;*/
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	clear: right;
+ }
+
+  /*¿subir botonera? rta:padding:0*/ 
+
+  #botonera1 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 10px;
+ }
+ #botonera1 ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;/*negrita*/
+	font-size: 20px;
+	display: inline-block;
+	background-color:#2EF021;
+	padding: 10px;
+	margin-left: 55px;
+
+  
+}
+
+#botonera1 ul li {
+	display: inline;
+}
+#botonera1 ul li a:hover{
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+/*estilo de contenido*/
+section#contenido_index{
+	width: 1200px;
+	height:600px;
+	/*background-color: blue;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+#lateral_der{
+	width: 500px;
+	height: 600px;
+	/*background-color: black;*/
+	float: right;
+
+
+
+}
+ #botonera2{
+	width: 350px;
+	height: 450px;
+	background-color: #10E9E1;
+	padding: 20px;
+	margin-top: 60px;
+ 	margin-left: 80px;
+ 	box-sizing: border-box;
+ }
+#formulario ul li {
+	margin-top: 10px;
+
+}
+
+    
+
+
+#lateral_izq{
+	width: 700px;
+	height: 600px;
+	/*background-color: violet;*/
+	float: left;
+	margin-left: 10px;
+
+}
+#imagen{
+	width: 550px;
+	height: 500px;
+	background-color: #0EF31D; /*¿bajar caja, centrar?*/
+	padding: 0;
+	margin-top: 45px;
+	margin-left: 80px;
+	background-position: center;
+	background-size: cover; /*acomoda la imagen*/
+ }
+
+ #imagen{
+ 	background-image: url(imagen_av/programar2.jpg); /*¿podria hacerlo desde el html?*/
+ }
+
+
+
+
+
+
+
+footer#pie_index{
+	width: 1200px;
+	height:150px;
+	background-color: #677611;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imagen2{
+	width: 250px;
+	height: 150px;
+	background-color: #6D132C;
+	float: left;
+	padding: 0;
+	background-size: cover;
+	
+}
+#imagen2{
+	background-image: url(imagen_av/bsas_ciudad.png);
+}
+
+
+
+#datos_direccion{
+	width: 800px;
+	height: 150px;
+	background-color: #603AC0;
+	float: right;
+	margin-left:0;
+	padding: 0;
+	
+}
